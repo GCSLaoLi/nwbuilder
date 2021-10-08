@@ -6,10 +6,28 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "New World加点模拟器"
 			}
 		}
-	],
+	    ,{
+            "path" : "pages/LifeStaff/LifeStaff",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "Life Staff(生命法杖)",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Sword/Sword",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "Sword(剑盾)",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
